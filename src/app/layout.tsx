@@ -20,7 +20,6 @@ const nunitoSans = Nunito_Sans({
 
 export async function generateMetadata(): Promise<Metadata> {
   const client = createClient();
-
   const settings = await client.getSingle("settings");
 
   return {
